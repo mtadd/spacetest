@@ -1,0 +1,24 @@
+{
+  "name": "spacetest",
+  "version": "1.0.0",
+  "description": "A simple demonstration of integrating velocity over 2d space",
+  "main": "server/server.js",
+  "scripts": {
+    "build": "gulp build",
+    "start": "node test1.js",
+    "watch": "gulp watch",
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mtadd/spacetest.git"
+  },
+  "author": "Matthew Tadd",
+  "license": "MIT",
+  "contributors": [
+    "Matthew Tadd <matt.tadd@gmail.com> (https://github.com/mtadd)"
+  ],
+  "dependencies": {
+    "ode-rk4": "^1.1.3"
+  }
+}
